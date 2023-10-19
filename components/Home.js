@@ -36,7 +36,7 @@ function Home() {
 
   // Movies list
   useEffect(() => {
-    fetch('my-movies-backend-b0qclw5ha-wissemedd.vercel.app')
+    fetch('my-movies-backend-jjybu4s50-wissemedd.vercel.app')
       .then(response => response.json())
       .then(data => {
         const formatedData = data.movies.map(movie => {
